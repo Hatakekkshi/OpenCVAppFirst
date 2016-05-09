@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>OpenCVAppFirst_shareTeame</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>OpenCVAppFirst_shareTeame</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="OpenCVAppFirst.vcxproj" File="OpenCVAppFirst.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">OpenCVAppFirst.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FirstApp.cpp">FirstApp.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="DATA_DEF.h">DATA_DEF.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Header.h">Header.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Cho_Ben_Thanh.jpg">Cho_Ben_Thanh.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="hoa_huong_duong.jpg">hoa_huong_duong.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="LucBinh.JPG">LucBinh.JPG</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Thap_But.jpg">Thap_But.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="vietnam.jpg">vietnam.jpg</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
